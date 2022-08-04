@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@600&family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-bottom: 6.5rem;
+  background: rgb(17, 14, 14);
+}
+section {
+  padding: 4rem 6%;
+}
+
+/* navbar start  */
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.nav-bar a {
+  padding: 20px;
+  background: rgb(48, 40, 40);
+  flex: 1;
+  text-align: center;
+  z-index: 1000;
+}
+
+.nav-bar a span {
+  color: white;
+}
+
+.nav-bar i {
+  color: crimson;
+}
+
+.nav-bar a:hover {
+  background-color: crimson;
+}
+.nav-bar i:hover {
+  color: white;
+}
+
+/* nav bar end */
+/* home start  */
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  min-height: calc(100vh - 6.5rem);
+}
+
+.home .image {
+  flex: 1 1 42rem;
+  text-align: center;
+}
+.home .img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+.content {
+  flex: 1 1 42rem;
+  color: white;
+}
+.content h3 {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+.content span {
+  color: crimson;
+  padding: 0.5rem 0;
+  font-size: 1.7rem;
+  display: block;
+}
+.content p {
+  /* font-size: 1.3rem; */
+  padding: 1rem 0;
+  line-height: 2;
+}
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5rem;
+  padding: 0.4rem 0.5rem;
+  background: crimson;
+  color: white;
+}
+.btn i {
+  width: 2rem;
+  height: 2rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-left: 0.7rem;
+  text-align: center;
+  transition: 0.2s linear;
+  color: crimson;
+}
+.btn i:hover {
+  margin-left: 2rem;
+}
+
+/* home end  */
+
+/* about section start  */
+
+.heading {
+  text-align: center;
+  color: white;
+  font-size: 4vw;
+  margin-bottom: 3rem;
+}
+.heading span {
+  color: crimson;
+  text-transform: uppercase;
+}
+
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.about .info-container {
+  flex: 1 1 32rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.about .info-container h1 {
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: white;
+}
+.info-container .btn {
+  width: 10.2rem;
+}
+
+.info-container .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  gap: 3rem;
+}
+
+.about .info-container .box h3 {
+  font-size: 1.2rem;
+  color: white;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.box span {
+  color: rgb(119, 119, 119, 0.6);
+}
+.count-container {
+  flex: 1 1 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.count-container .box {
+  flex: 1 1;
+  padding: 1rem 0.9rem;
+  border-radius: 0.5rem;
+  background: rgb(24, 23, 23);
+  text-align: center;
+}
+
+.count-container .box h3 {
+  color: crimson;
+  font-size: 2rem;
+}
+.count-container .box p {
+  color: white;
+}
+
+/* about section end  */
+
+/* skills section start  */
+
+.skills .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills .box {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: rgb(24, 23, 23);
+  text-align: center;
+}
+.skills .box img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+}
+.skills .box h3 {
+  font-weight: normal;
+}
+
+/* skills section end  */
+
+/* education section start  */
+
+.education .box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.education .box {
+  flex: 1 1 20rem;
+  border-left: 1px solid white;
+  padding: 1rem;
+}
+.education .box i {
+  text-align: center;
+  border-radius: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  background: crimson;
+  color: white;
+  margin-left: 0.4rem;
+}
+.education .box span {
+  background: rgb(20, 20, 20);
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.education .box h3 {
+  color: white;
+  padding: 1rem 0.4rem 0;
+  font-size: 1.3rem;
+}
+
+.education .box p {
+  padding: 0.4rem 0.4rem 0;
+  color: rgb(104, 102, 102);
+}
+
+/* education section end  */
+
+/* portfolio section start  */
+
+.portfolio {
+  text-align: center;
+}
+.portfolio .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.portfolio .box-container img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+.portfolio .box-container .box-work .content {
+  padding: 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio .content a {
+  color: crimson;
+}
+.portfolio .content a:hover {
+  color: white;
+}
+/* porttfolio section end */
+
+/* blogs section start  */
+
+.blogs .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.blogs .box {
+  text-align: center;
+  background: rgb(36, 34, 34);
+
+  border-radius: 0.5rem;
+}
+.blogs .image {
+  padding: 15px;
+  width: 100%;
+  height: 14rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.blogs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.2s linear;
+  border-radius: 0.5rem;
+}
+.blogs .image:hover {
+  transform: scale(1.2);
+}
+.blogs .btn {
+  margin-bottom: 10px;
+}
+
+.blogs h3 {
+  font-size: 1.5rem;
+  padding: 1rem 0 0.5rem;
+}
+
+.blogs .icons {
+  display: inline-block;
+  border-radius: 0.5rem;
+  background: black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.icons a {
+  color: white;
+  margin: 0 0.5rem;
+}
+.icons a:hover {
+  color: crimson;
+}
+
+.icons i {
+  color: crimson;
+}
+.blogs .content p {
+  padding: 0;
+  color: rgb(85, 81, 81);
+}
+
+/* blog section ends */
+
+/* contact section start  */
+
+.contact .row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.contact .info-container {
+  width: 20rem;
+}
+.contact .info-container h1 {
+  padding: 1rem 0;
+  color: white;
+  font-size: 2rem;
+}
+.contact .info-container p {
+  padding: 1rem 0;
+  line-height: 1.5;
+  color: rgb(94, 90, 90);
+}
+.contact .box-container {
+  padding: 1rem 0;
+}
+.contact .box-container .box {
+  display: flex;
+  gap: 2rem;
+}
+.row form {
+  margin: 6rem 0;
+  flex: 1 1 26rem;
+}
+.contact .box i {
+  color: crimson;
+  font-size: 3rem;
+}
+.contact .box h3 {
+  color: white;
+  font-size: 1.5rem;
+}
+.contact .share a {
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgb(41, 40, 40);
+  color: white;
+  margin-right: 0.3rem;
+  text-align: center;
+  padding-top: 0.8rem;
+}
+.contact .share a:hover {
+  color: crimson;
+}
+.contact .inputbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact .inputbox input {
+  width: 49%;
+}
+.contact .inputbox input,
+textarea {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  color: white;
+  text-transform: none;
+  background: black;
+  margin: 0.7rem 0;
+}
+.contact textarea {
+  width: 100%;
+  resize: none;
+}
+.contact .btn {
+  margin: 0;
+  padding: 1rem 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact .btn:hover {
+  background: white;
+  color: crimson;
+}
+
+/* contact section ends  */
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 95%;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+  .home {
+    flex-wrap: wrap;
+  }
+  .skills .box-container {
+    justify-content: center;
+  }
+  .contact .row form {
+    margin: 3rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  html {
+    font-size: 85%;
+  }
+  .nav-bar a span {
+    display: none;
+  }
+  .navbar a {
+    padding: 2rem;
+  }
+  .home {
+    text-align: center;
+    gap: 2rem;
+  }
+  .image img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .content h3 {
+    font-size: 2.2rem;
+  }
+  .content span {
+    font-size: 1.5rem;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .skills .box-container {
+    justify-content: center;
+  }
+  .contact .row form .inputbox input {
+    width: 100%;
+  }
+  .contact .row form {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .nav-bar a span {
+    display: none;
+  }
+  .nav-bar a {
+    padding: 2rem;
+  }
+  .about .info-container .box-container {
+    justify-content: center;
+  }
+  .about .info-container {
+    text-align: center;
+  }
+}
+
+/* media query ends */
